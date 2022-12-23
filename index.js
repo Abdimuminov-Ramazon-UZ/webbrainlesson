@@ -48,6 +48,8 @@ console.log("\n0\n" == null); //false whatis "\n0\n" . it is equal to
 //    so it is number 0.o is number  null object so  it is false
 console.log(+"\n0\n" == null); // false
 console.log("\n0\n"); // raw 0 raw
+console.log(!"hey"); // false
+console.log(typeof !"hey"); // boolean
 
 //=========
 let nameForTasks = document.querySelector("#name");
